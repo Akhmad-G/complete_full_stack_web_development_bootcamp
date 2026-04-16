@@ -1,24 +1,22 @@
-h1 {
-    font: xxx-large "Libre Baskerville", sans-serif;
-    color: white;
-    text-align: center;
-}
-
-p {
-    color: white;
-    text-align: center;
-}
-
 body {
     background-color: black;
 }
 
-img {
+h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+}
+
+.demotivator-img {
+    width: 100%;
     border: 5px solid white;
-    align-content: center;
 }
 
 .demotivator {
-    width: 100%;
-    margin: 5%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
 }
