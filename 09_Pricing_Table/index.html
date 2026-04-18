@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
     <title>Flexbox Pricing Table</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,6 +13,36 @@
       body {
         font-family: "Sono", sans-serif;
       }
+
+      .pricing-container {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+        border: red solid 1px;
+      }
+
+      .pricing-plan {
+        background-color: lightgray;
+      }
+      
+      .plan-title {
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      .plan-price {
+        font-size: 2rem;
+        font-weight: bolder;
+      }
+
+      li {
+
+      }
+
+
 
       /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
