@@ -6,26 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mondrian Project</title>
   <style>
-      body {
-          padding: 0;
-          margin: 0;
-      }
+/*      I removed the extra elements using this solution.
+      I didn't think you could use flexbox on the body too.*/
 
-      .flex-container {
+      body {
           height: 100vh;
           display: flex;
           justify-content: center;
           align-items: center;
-      }
-
-      .canvas {
-          background-color: black;
-          width: 748px;
-          height: 748px;
+          padding: 0;
+          margin: 0;
       }
 
       .grid-container {
-          height: 100%;
+          background-color: black;
+          width: 748px;
+          height: 748px;
           display: grid;
           grid-template-rows: 414px 1fr 155px 20px;
           grid-template-columns: 320px 198px 153px 50px;
@@ -75,20 +71,18 @@
 </head>
 
 <body>
-    <div class="flex-container">
-        <div class="canvas">
-            <div class="grid-container">
-                <div class="red"></div>
-                <div class="white white1"></div>
-                <div class="white white2"></div>
-                <div class="white white3"></div>
-                <div class="blue"></div>
-                <div class="white white4"></div>
-                <div class="white white5"></div>
-                <div class="yellow"></div>
-                <div class="black"></div>
-            </div>
-        </div>
+    <div class="grid-container">
+        <div class="red"></div>
+        <div class="white white1"></div>
+
+        <div class="white white2"></div>
+        <div class="white white3"></div>
+        <div class="blue"></div>
+        <div class="white white4"></div>
+
+        <div class="white white5"></div>
+        <div class="yellow"></div>
+        <div class="black"></div>
     </div>
   <!-- Write your HTML here -->
 </body>
