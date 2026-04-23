@@ -9,4 +9,4 @@ function nameCapitalaze (name) {
     return name.slice(0, 1).toUpperCase() + name.slice(1, name.length)
 }
 
-alert(nameCapitalaze(mansName) + " is " + randomPercentage() + " percent compatible with " + nameCapitalaze(womanName) + ".")
+alert(nameCapitalaze(mansName) + " is " + randomPercentage() + "% compatible with " + nameCapitalaze(womanName) + ".")
