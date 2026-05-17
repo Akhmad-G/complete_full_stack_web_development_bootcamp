@@ -40,3 +40,19 @@ function handleClick() {
       console.log(buttonInnerHTML);
   }
 }
+
+function HouseKeeper(yearsOfExperience, name, cleaningRepertoire) {
+  this.yearsOfExperience = yearsOfExperience;
+  this.name = name;
+  this.cleaningRepertoire = cleaningRepertoire;
+  this.cleaning = function () {
+    alert("Cleaning in process...");
+  }
+}
+
+let houseKeeper1 = new HouseKeeper(
+  12,
+  "Jane",
+  ["bathroom", "lobby", "bedroom"])
+
+console.log(houseKeeper1);
